@@ -12,7 +12,7 @@ struct Rectangle {
 
 int main() {
     // Створення об'єкта з константними значеннями
-    constexpr Rectangle rect1{ 6, 10 }; // Константи для width і height
+    constexpr Rectangle rect1{ 10, 10 }; // Константи для width і height
     constexpr int area1 = rect1.area(); // Обчислення площі на етапі компіляції
     std::cout << "Area of rectangle rect1 (compile): " << area1 << std::endl;
 
